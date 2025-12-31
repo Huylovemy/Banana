@@ -1,3 +1,6 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local VirtualUser = game:GetService("VirtualUser")
@@ -62,8 +65,6 @@ if worldMap[placeId] then
         World3 = true
     end
 else
-    game.Players.LocalPlayer:Kick("Unsupported Game")
-end
 repeat
     wait()
 until game.Players.LocalPlayer.Character
