@@ -6,12 +6,12 @@ local Window = WindUI:CreateWindow({
 	Size = UDim2.fromOffset(520, 300),
 	Transparent = true,
 	Theme = "Dark",
-	SideBarWidth = 100,
+	SideBarWidth = 190,
 	HasOutline = false,
 });
 Window:EditOpenButton({
 	Title = "Bear Hud[beta]",
-	CornerRadius = UDim.new(0, 10),
+	CornerRadius = UDim.new(0, 5),
 	Draggable = false
 });
 local Tabs = {
