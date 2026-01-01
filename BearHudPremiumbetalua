@@ -2,7 +2,6 @@ local WindUI = (loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylo
 local Window = WindUI:CreateWindow({
 	Title = "Bear Hud[beta]",
 	Author = "by Quang Huy",
-    Image = "http://www.roblox.com/asset/?id=134852113716171",
 	Size = UDim2.fromOffset(520, 300),
 	Transparent = true,
 	Theme = "Dark",
@@ -14,6 +13,16 @@ Window:EditOpenButton({
 	CornerRadius = UDim.new(0, 10),
 	Draggable = false
 });
+MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=134852113716171",
+       Size = {20, 20},
+       Color = Color3.fromRGB(255,255,255),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0),
+                     Color3.fromRGB(0, 0, 0),
+                     Color3.fromRGB(255,255,255)
+      })
 local Tabs = {
 	MiscTab = Window:Tab({
 		Title = "Blox Fruit",
