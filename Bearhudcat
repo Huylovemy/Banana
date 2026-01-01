@@ -61,9 +61,3 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 		}
 	}
 });
-DiscordServerParagraph = Tabs.InfoTab:Paragraph({
-	Title = "Thông báo",
-	TextXAlignment = "Left"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
-	end
-});
