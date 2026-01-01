@@ -1,8 +1,8 @@
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
-	Title = "Bear Hud",
+	Title = "Bear Hud[beta]",
 	Author = "by Quang Huy",
-	Folder = "Bear Hud",
+	Folder = "Bear Hud[beta]",
 	Size = UDim2.fromOffset(520, 300),
 	Transparent = true,
 	Theme = "Light",
@@ -61,7 +61,7 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 		}
 	}
 });
-MiscSection = Tabs.MiscTab:Section({
+DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 	Title = "Thông báo",
 	TextXAlignment = "Left"
 });
@@ -71,3 +71,12 @@ JoinPiratesTeamButton = Tabs.MiscTab:Button({
 		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
 	end
 });
+MiscSection = Tabs.MiscTab:Section({
+Title = "Blox fruit",
+	TextXAlignment = "Left"
+});
+JoinPiratesTeamButton = Tabs.MiscTab:Button({
+	Title = "Huy pvp",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
+	end
