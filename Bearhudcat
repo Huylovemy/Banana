@@ -42,3 +42,22 @@ JoinMarinesTeamButton = Tabs.MiscTab:Button({
 		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", "Marines");
 	end
 });
+DiscordServerParagraph = Tabs.InfoTab:Paragraph({
+	Title = "Discord Server",
+	Desc = "Link Discord YGz Hub",
+	TextXAlignment = "Left",
+	Buttons = {
+		{
+			Title = "Copy Link Tik Tok",
+			Callback = function()
+				setclipboard("https://www.tiktok.com/@huyscriptth?_r=1&_t=ZS-92hNw4CNwRM");
+				WindUI:Notify({
+					Title = "Notication",
+					Content = "Tik Tok Link Copied",
+					Icon = "bell",
+					Duration = 3
+				});
+			end
+		}
+	}
+});
