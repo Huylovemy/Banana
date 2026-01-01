@@ -16,7 +16,7 @@ Window:EditOpenButton({
 });
 local Tabs = {
 	MiscTab = Window:Tab({
-		Title = "Tab Misc",
+		Title = "Blox Fruit",
 		Icon = "layout-grid",
 		Desc = "Misc Section"
 	}),
@@ -27,7 +27,7 @@ InfoTab = Window:Tab({
 	})
 };
 MiscSection = Tabs.MiscTab:Section({
-	Title = "Misc",
+	Title = "Blox fruit",
 	TextXAlignment = "Left"
 });
 JoinPiratesTeamButton = Tabs.MiscTab:Button({
