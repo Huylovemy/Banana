@@ -27,7 +27,7 @@ local Tabs = {
 	})
 };
 MiscSection = Tabs.MiscTab:Section({
-	Title = "Thông báo",
+	Title = "Misc",
 	TextXAlignment = "Left"
 });
 JoinPiratesTeamButton = Tabs.MiscTab:Button({
