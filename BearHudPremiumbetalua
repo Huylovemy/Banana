@@ -11,7 +11,7 @@ local Window = WindUI:CreateWindow({
 });
 Window:EditOpenButton({
 	Title = "Bear Hud[beta]",
-	CornerRadius = UDim.new(0, 5),
+	CornerRadius = UDim.new(0, 10),
 	Draggable = false
 });
 local Tabs = {
