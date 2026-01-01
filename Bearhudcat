@@ -25,6 +25,11 @@ local Tabs = {
 		Icon = "layout-grid",
 		Desc = "Misc Section"
 	}),
+    99 = Window:Tab({
+		Title = "99 night",
+		Icon = "layout-grid",
+		Desc = "Misc Section"
+	}),
 InfoTab = Window:Tab({
 		Title = "Thông Tin",
 		Icon = "info",
@@ -39,12 +44,6 @@ Bearhud = Tabs.MiscTab:Button({
 	Title = "Huy pvp",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
-	end
-});
-Bearhud = Tabs.MiscTab:Button({
-	Title = "Join Marines Team",
-	Callback = function()
-		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", "Marines");
 	end
 });
 Bearhud = Tabs.InfoTab:Button({
@@ -220,5 +219,11 @@ Bearhud = Tabs.NoTab:Button({
 	Title = "Aim",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
+	end
+});
+Bearhud = Tabs.99:Button({
+	Title = "Foxname hud",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
 	end
 });
