@@ -1,5 +1,5 @@
 local = (loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/File/refs/heads/main/Bearhud")))();
-local Window = CreateWindow({
+local Window = MakeWindow({
 	Title = "Bear Hud[beta]",
 	Author = "by Quang Huy",
 	Size = UDim2.fromOffset(520, 300),
