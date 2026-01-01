@@ -25,11 +25,6 @@ local Tabs = {
 		Icon = "layout-grid",
 		Desc = "Misc Section"
 	}),
-UntiTab = Window:Tab({
-		Title = "99 Night",
-		Icon = "layout-grid",
-		Desc = "Misc Section"
-	}),
 InfoTab = Window:Tab({
 		Title = "Thông Tin",
 		Icon = "info",
@@ -227,7 +222,7 @@ Bearhud = Tabs.NoTab:Button({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
 	end
 });
-Bearhud = Tabs.UntiTab:Button({
+Bearhud = Tabs.NoTab:Button({
 	Title = "Foxname Hud",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
