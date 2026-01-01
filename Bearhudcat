@@ -78,3 +78,82 @@ Bearhud = Tabs.MiscTab:Button({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/refs/heads/main/LucKyRadomFruit.lua"))()
 	end
 });
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Blue X Hud",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Night Hud",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Tuấn Anh IOS",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Rise-Evo",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/loadder.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Huy Top PvP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huy-Top-PvP/refs/heads/main/PVP%20top"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Gravity Hud",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "PVP Top",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovyn/KrovynHub/refs/heads/main/TOP_PVP"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "PvP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.xyz"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Quan Tum Onyx",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Teddy Hud",
+	Callback = function()
+        repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Banana Zis Hud",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisChuoiEng"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Hoàng Long hud ",
+	Callback = function()
+		getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/HoangLong-script/refs/heads/main/HoangLongScriptHub.lua.txt"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
+	Title = "Aim PvP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/onion132005-bit/Onion133/refs/heads/main/Script.lua"))()
+	end
+});
