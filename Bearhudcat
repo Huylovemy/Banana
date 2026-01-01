@@ -72,7 +72,7 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 	TextXAlignment = "Left",
 	Buttons = {
 		{
-			  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
 				});
 			end
 		}
