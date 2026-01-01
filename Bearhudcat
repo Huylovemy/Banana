@@ -35,19 +35,19 @@ MiscSection = Tabs.MiscTab:Section({
 	Title = "Blox fruit",
 	TextXAlignment = "Left"
 });
-JoinPiratesTeamButton = Tabs.MiscTab:Button({
+Bearhud = Tabs.MiscTab:Button({
 	Title = "Huy pvp",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
 	end
 });
-JoinMarinesTeamButton = Tabs.MiscTab:Button({
+Bearhud = Tabs.MiscTab:Button({
 	Title = "Join Marines Team",
 	Callback = function()
 		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", "Marines");
 	end
 });
-DiscordServerParagraph = Tabs.InfoTab:Button({
+Bearhud = Tabs.InfoTab:Button({
 	Title = "Thông báo",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
