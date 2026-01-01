@@ -27,7 +27,7 @@ local Tabs = {
 	})
 };
 MiscSection = Tabs.MiscTab:Section({
-	Title = "Misc",
+	Title = "Thông báo",
 	TextXAlignment = "Left"
 });
 JoinPiratesTeamButton = Tabs.MiscTab:Button({
@@ -60,4 +60,14 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 			end
 		}
 	}
+});
+DiscordServerParagraph = Tabs.InfoTab:Paragraph({
+Title = "Thông Báo",
+	TextXAlignment = "Left"
+});
+Thông báo = Tabs.MiscTab:Button({
+	Title = "Thông báo",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
+	end
 });
