@@ -47,7 +47,7 @@ JoinMarinesTeamButton = Tabs.MiscTab:Button({
 		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", "Marines");
 	end
 });
-DiscordServerParagraph = Tabs.InfoTab:Paragraph({
+DiscordServerParagraph = Tabs.InfoTab:Button({
 	Title = "Thông báo",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
