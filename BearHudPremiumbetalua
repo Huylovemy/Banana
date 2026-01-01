@@ -2,6 +2,7 @@ local WindUI = (loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylo
 local Window = WindUI:CreateWindow({
 	Title = "Bear Hud[beta]",
 	Author = "by Quang Huy",
+    Image = "http://www.roblox.com/asset/?id=134852113716171",
 	Size = UDim2.fromOffset(520, 300),
 	Transparent = true,
 	Theme = "Dark",
