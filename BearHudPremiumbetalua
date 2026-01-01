@@ -5,7 +5,7 @@ local Window = WindUI:CreateWindow({
 	Folder = "Bear Hud[beta]",
 	Size = UDim2.fromOffset(520, 300),
 	Transparent = true,
-	Theme = "Light",
+	Theme = "Dark",
 	SideBarWidth = 190,
 	HasOutline = false,
 });
