@@ -62,11 +62,11 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 	}
 });
 MiscSection = Tabs.MiscTab:Section({
-	Title = "Misc",
+	Title = "Thông báo",
 	TextXAlignment = "Left"
 });
 JoinPiratesTeamButton = Tabs.MiscTab:Button({
-	Title = "Join Pirates Team",
+	Title = "Thông báo Bear hud premium [beta]",
 	Callback = function()
 		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
 	end
