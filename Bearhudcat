@@ -15,15 +15,15 @@ Window:EditOpenButton({
 	Draggable = false
 });
 local Tabs = {
-    InfoTab = Window:Tab({
-		Title = "Thông Tin",
-		Icon = "info",
-		Desc = "Info Section"
-	}),
 	MiscTab = Window:Tab({
 		Title = "Tab Misc",
 		Icon = "layout-grid",
 		Desc = "Misc Section"
+	}),
+InfoTab = Window:Tab({
+		Title = "Thông Tin",
+		Icon = "info",
+		Desc = "Info Section"
 	})
 };
 MiscSection = Tabs.MiscTab:Section({
