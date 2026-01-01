@@ -10,13 +10,19 @@ local Window = WindUI:CreateWindow({
 	HasOutline = false,
 });
 Window:EditOpenButton({
-	Title = "Bear Hud",
+	Title = "Bear Hud[beta]",
 	CornerRadius = UDim.new(0, 10),
 	Draggable = false
 });
 local Tabs = {
 	MiscTab = Window:Tab({
 		Title = "Blox Fruit",
+		Icon = "layout-grid",
+		Desc = "Misc Section"
+	}),
+local Tabs = {
+	MiscTab = Window:Tab({
+		Title = "Khác",
 		Icon = "layout-grid",
 		Desc = "Misc Section"
 	}),
