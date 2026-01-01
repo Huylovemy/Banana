@@ -4,7 +4,7 @@ local Window = WindUI:CreateWindow({
 	Author = "by Quang Huy",
 	Size = UDim2.fromOffset(520, 300),
 	Transparent = true,
-	Theme = "Dark,Light",
+	Theme = "Dark",
 	SideBarWidth = 190,
 	HasOutline = false,
 });
