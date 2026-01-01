@@ -66,3 +66,15 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 		}
 	}
 });
+DiscordServerParagraph = Tabs.InfoTab:Paragraph({
+	Title = "Link Tik Tok",
+	Desc = "Link Tik Tok Huy script",
+	TextXAlignment = "Left",
+	Buttons = {
+		{
+			  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
+				});
+			end
+		}
+	}
+});
