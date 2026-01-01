@@ -33,7 +33,7 @@ MiscSection = Tabs.MiscTab:Section({
 JoinPiratesTeamButton = Tabs.MiscTab:Button({
 	Title = "Join Pirates Team",
 	Callback = function()
-		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", "Pirates");
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
 	end
 });
 JoinMarinesTeamButton = Tabs.MiscTab:Button({
@@ -71,8 +71,3 @@ JoinPiratesTeamButton = Tabs.MiscTab:Button({
 		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
 	end
 });
-JoinPiratesTeamButton = Tabs.MiscTab:Button({
-	Title = "Huy pvp",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
-	end
