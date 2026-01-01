@@ -1,4 +1,4 @@
-local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
+alocal WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
 	Title = "Bear Hud[beta]",
 	Author = "by Quang Huy",
@@ -22,6 +22,11 @@ local Tabs = {
 	}),
     NoTab = Window:Tab({
 		Title = "Khác",
+		Icon = "layout-grid",
+		Desc = "Misc Section"
+	}),
+Night = Window:Tab({
+		Title = "99 Night",
 		Icon = "layout-grid",
 		Desc = "Misc Section"
 	}),
@@ -220,5 +225,11 @@ Bearhud = Tabs.NoTab:Button({
 	Title = "Aim",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
+	end
+});
+Bearhud = Tabs.Night:Button({
+	Title = "Foxname Hud",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
 	end
 });
