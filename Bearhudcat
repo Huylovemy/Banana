@@ -57,16 +57,17 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 					Icon = "bell",
 					Duration = 3
 				});
-DiscordServerParagraph = Tabs.InfoTab:Paragraph({
-Title = "Thông Báo",
-	TextXAlignment = "Left"
-});
-Thông báo = Tabs.MiscTab:Button({
-	Title = "Thông báo",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
-                });
 			end
 		}
 	}
+});
+MiscSection = Tabs.MiscTab:Section({
+	Title = "Misc",
+	TextXAlignment = "Left"
+});
+JoinPiratesTeamButton = Tabs.MiscTab:Button({
+	Title = "Join Pirates Team",
+	Callback = function()
+		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
+	end
 });
