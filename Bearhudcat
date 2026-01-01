@@ -43,8 +43,8 @@ JoinMarinesTeamButton = Tabs.MiscTab:Button({
 	end
 });
 DiscordServerParagraph = Tabs.InfoTab:Paragraph({
-	Title = "Discord Server",
-	Desc = "Link Discord YGz Hub",
+	Title = "Link Tik Tok",
+	Desc = "Link Tik Tok Huy script",
 	TextXAlignment = "Left",
 	Buttons = {
 		{
