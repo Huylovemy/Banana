@@ -109,6 +109,12 @@ Bearhud = Tabs.MiscTab:Button({
 	end
 });
 Bearhud = Tabs.MiscTab:Button({
+	Title = "Tăng hitbox",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
 	Title = "Gravity Hud",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
@@ -155,5 +161,64 @@ Bearhud = Tabs.MiscTab:Button({
 	Title = "Aim PvP",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/onion132005-bit/Onion133/refs/heads/main/Script.lua"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "Ring",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudhop/refs/heads/main/Huylovewifemy"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "Ply",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudply/refs/heads/main/Bearhud"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "Huy ply",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/huytong233-hue/Pls/refs/heads/main/Huyply"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "Fix Lag",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TIKTOK-BOYCHOIGAME/PH-ICH-U/refs/heads/main/FIXLAGV2.BOYCHOIGAME"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "ESP and AIM",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hack/refs/heads/main/Huydepzai209"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "God mod v1",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/miglels33/God-Mode-Script/refs/heads/main/GodModeScript.md"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "Huy hitbox",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hitboxgame/refs/heads/main/Hitboxgame"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "God mod v2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
+	end
+});Bearhud = Tabs.NoTab:Button({
+	Title = "Huy God mod",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huy-mod/refs/heads/main/Huy%20mod"))()
+	end
+});
+Bearhud = Tabs.NoTab:Button({
+	Title = "Aim",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
 	end
 });
