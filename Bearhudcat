@@ -53,7 +53,7 @@ Bearhud = Tabs.InfoTab:Button({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
 	end
 });
-DiscordServerParagraph = Tabs.InfoTab:Paragraph({
+Bearhud = Tabs.InfoTab:Paragraph({
 	Title = "Link Tik Tok",
 	Desc = "Link Tik Tok Huy script",
 	TextXAlignment = "Left",
