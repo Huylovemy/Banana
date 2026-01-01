@@ -227,9 +227,3 @@ Bearhud = Tabs.NoTab:Button({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
 	end
 });
-Bearhud = Tabs.NightTab:Button({
-	Title = "Foxname Hud",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
-	end
-});
