@@ -48,6 +48,12 @@ JoinMarinesTeamButton = Tabs.MiscTab:Button({
 	end
 });
 DiscordServerParagraph = Tabs.InfoTab:Paragraph({
+	Title = "Thông báo",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
+	end
+});
+DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 	Title = "Link Tik Tok",
 	Desc = "Link Tik Tok Huy script",
 	TextXAlignment = "Left",
@@ -61,18 +67,6 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 					Content = "Tik Tok Link Copied",
 					Icon = "bell",
 					Duration = 3
-				});
-			end
-		}
-	}
-});
-DiscordServerParagraph = Tabs.InfoTab:Paragraph({
-	Title = "Link Tik Tok",
-	Desc = "Link Tik Tok Huy script",
-	TextXAlignment = "Left",
-	Buttons = {
-		{
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
 				});
 			end
 		}
