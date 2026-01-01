@@ -72,3 +72,9 @@ Bearhud = Tabs.InfoTab:Paragraph({
 		}
 	}
 });
+Bearhud = Tabs.MiscTab:Button({
+	Title = "lucky",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/refs/heads/main/LucKyRadomFruit.lua"))()
+	end
+});
