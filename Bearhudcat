@@ -20,8 +20,7 @@ local Tabs = {
 		Icon = "layout-grid",
 		Desc = "Misc Section"
 	}),
-local Tabs = {
-	NoTab = Window:Tab({
+    NoTab = Window:Tab({
 		Title = "Khác",
 		Icon = "layout-grid",
 		Desc = "Misc Section"
