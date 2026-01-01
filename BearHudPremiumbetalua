@@ -41,6 +41,12 @@ MiscSection = Tabs.MiscTab:Section({
 	TextXAlignment = "Left"
 });
 Bearhud = Tabs.MiscTab:Button({
+	Title = "Redz New real 100%(working)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+	end
+});
+Bearhud = Tabs.MiscTab:Button({
 	Title = "Huy pvp",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
