@@ -71,10 +71,6 @@ JoinPiratesTeamButton = Tabs.MiscTab:Button({
 		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
 	end
 });
-MiscSection = Tabs.MiscTab:Section({
-Title = "Blox fruit",
-	TextXAlignment = "Left"
-});
 JoinPiratesTeamButton = Tabs.MiscTab:Button({
 	Title = "Huy pvp",
 	Callback = function()
