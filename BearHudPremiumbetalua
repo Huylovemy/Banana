@@ -8,11 +8,6 @@ local Window = WindUI:CreateWindow({
 	SideBarWidth = 190,
 	HasOutline = false,
 });
-Window:EditOpenButton({
-	Title = "Bear Hud[beta]",
-	CornerRadius = UDim.new(0, 10),
-	Draggable = false
-});
 MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=134852113716171",
        Size = {20, 20},
@@ -23,6 +18,11 @@ MinimizeButton({
                      Color3.fromRGB(0, 0, 0),
                      Color3.fromRGB(255,255,255)
       })
+Window:EditOpenButton({
+	Title = "Bear Hud[beta]",
+	CornerRadius = UDim.new(0, 10),
+	Draggable = false
+});
 local Tabs = {
 	MiscTab = Window:Tab({
 		Title = "Blox Fruit",
