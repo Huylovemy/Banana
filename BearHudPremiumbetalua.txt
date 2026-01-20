@@ -19,7 +19,7 @@ Window:EditOpenButton({
 -- Khởi tạo các Tabs mới
 local Tabs = {
     PvP = Window:Tab({ Title = "PvP", Icon = "swords" }),
-    Farm = Window:Tab({ Title = "Farm", Icon = "shovels" }),
+    Farm = Window:Tab({ Title = "Farm", Icon = "rbxassetid://10734944444" }),
     Server = Window:Tab({ Title = "Sever", Icon = "server" }),
     Khac = Window:Tab({ Title = "Khác", Icon = "layout-grid" }),
     Night99 = Window:Tab({ Title = "99Night", Icon = "moon" }),
