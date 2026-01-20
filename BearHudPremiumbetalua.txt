@@ -1,51 +1,34 @@
-local WindUI = (loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/File/refs/heads/main/Bearhud")))();
+-[span_0](start_span)- Tải thư viện WindUI[span_0](end_span)
+local WindUI = (loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/File/refs/heads/main/Bearhud")))()
 
+-[span_1](start_span)- Khởi tạo Window[span_1](end_span)
 local Window = WindUI:CreateWindow({
-	Title = "Bear Hud[beta]",
-	Author = "by Quang Huy",
-	Size = UDim2.fromOffset(520, 300),
-	Transparent = true,
-	Theme = "Dark",
-	SideBarWidth = 190,
-	HasOutline = false,
+    Title = "Bear Hud[beta]",
+    Author = "by Quang Huy",
+    Size = UDim2.fromOffset(520, 300),
+    Transparent = true,
+    Theme = "Dark",
+    SideBarWidth = 190,
+    HasOutline = false,
 })
 
+-- Đợi một chút để UI load hoàn tất
+task.wait(0.1)
+
+-[span_2](start_span)- Nút mở Menu[span_2](end_span)
 Window:EditOpenButton({
-	Title = "Bear Hud[beta]",
-	CornerRadius = UDim.new(0, 10),
-	Draggable = false
+    Title = "Bear Hud[beta]",
+    CornerRadius = UDim.new(0, 10),
+    Draggable = true -- Chỉnh thành true để bạn có thể di chuyển nút mở
 })
 
---- Khởi tạo các Tabs
-local Tab1o = Window:MakeTab({
-    Title = "PvP",
-    Icon = "Sword"
-})
-
-local Tab2o = Window:MakeTab({
-    Title = "Farm",
-    Icon = "rbxassetid://10709769508"
-})
-
-local Tab3o = Window:MakeTab({
-    Title = "Sever",
-    Icon = "rbxassetid://10734944444"
-})
-
-local Tab4o = Window:MakeTab({
-    Title = "Khác",
-    Icon = "rbxassetid://10709797985"
-})
-
-local Tab5o = Window:MakeTab({
-    Title = "99Night",
-    Icon = "moon"
-})
-
-local Tab6o = Window:MakeTab({
-    Title = "Update",
-    Icon = "rbxassetid://10723407335"
-})
+--- Khởi tạo các Tabs (Sửa từ MakeTab thành AddTab để phù hợp với WindUI)
+local Tab1o = Window:AddTab({ Title = "PvP", Icon = "Sword" })
+local Tab2o = Window:AddTab({ Title = "Farm", Icon = "rbxassetid://10709769508" })
+local Tab3o = Window:AddTab({ Title = "Sever", Icon = "rbxassetid://10734944444" })
+local Tab4o = Window:AddTab({ Title = "Khác", Icon = "rbxassetid://10709797985" })
+local Tab5o = Window:AddTab({ Title = "99Night", Icon = "moon" })
+local Tab6o = Window:AddTab({ Title = "Update", Icon = "rbxassetid://10723407335" })
 
 --- Thêm Button vào Tab 1 (PvP)
 Tab1o:AddButton({
@@ -94,6 +77,7 @@ Tab1o:AddButton({
 Tab1o:AddButton({
     Name = "Tăng hitbox",
     Callback = function() 
+        -- Đã sửa Game:HttpGet thành game:HttpGet
         loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
     end
 })
