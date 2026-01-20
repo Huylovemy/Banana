@@ -1,18 +1,27 @@
-local WindUI = (loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/File/refs/heads/main/Bearhud")))();
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+
 local Window = WindUI:CreateWindow({
-	Title = "Bear Hud[beta]",
-	Author = "by Quang Huy",
-	Size = UDim2.fromOffset(520, 300),
-	Transparent = true,
-	Theme = "Dark",
-	SideBarWidth = 190,
-	HasOutline = false,
-});
-Window:EditOpenButton({
-	Title = "Bear Hud[beta]",
-	CornerRadius = UDim.new(0, 10),
-	Draggable = false
-});
+    Title = "KAITUN",
+    Icon = "",
+    Author = "Blox Fruits : PREMIUM",
+    Size = UDim2.fromOffset(400, 300),
+    Transparent = true,
+    Theme = "Dark",
+    SideBarWidth = 200,
+    Background = "", 
+    BackgroundImageTransparency = 0.95,
+    HideSearchBar = true,
+    ScrollBarEnabled = false,
+    User = {
+        Enabled = true,
+        Anonymous = false,
+        Callback = function() end,
+    }
+})
+
+local Tabs = {
+    MainTab = Window:Tab({ Title = "Main "}),
+}
 local Tabs = {
 	MiscTab = Window:Tab({
 		Title = "Blox Fruit",
