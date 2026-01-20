@@ -1,9 +1,9 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "KAITUN",
+    Title = "Bear Hub [beta]",
     Icon = "",
-    Author = "Blox Fruits : PREMIUM",
+    Author = "by Quang Huy",
     Size = UDim2.fromOffset(400, 300),
     Transparent = true,
     Theme = "Dark",
