@@ -12,6 +12,7 @@ local Window = WindUI:CreateWindow({
 
 Window:EditOpenButton({
     Title = "Bear Hud",
+    Icon = "rbxassetid://134852113716171",
     CornerRadius = UDim.new(0, 10),
     Draggable = true
 });
